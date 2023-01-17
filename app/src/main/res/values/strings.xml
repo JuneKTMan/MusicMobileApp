@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="welcome_title">Welcome</string>
+    <string name="sign_in_title">Sign in</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="sign_in_txt_btn">Sign in</string>
+    <string name="create_account_txt_link">Create account</string>
+    <string name="sign_up_title">Sign up</string>
+    <string name="re_enter_password_hint">Re-enter Password</string>
+    <string name="create_account_txt_btn">Create Account</string>
+    <string name="login_txt_link">Login</string>
+    <string name="Bio">Login</string>
+    <string name="nothing_to_display_maybe_connect_to_spotify">Nothing to display... Maybe connect to Spotify?</string>
+    <string name="todo">TODO</string>
+    <string name="connected_with_spotify">Connected with Spotify</string>
+
+    <string name="title_string_1">Shake for song</string>
+    <string name="title_string_2">Playlist</string>
+    <string name="title_string_3">Chill Vibes</string>
+    <string name="title_string_4">Sad</string>
+    <string name="title_string_5">Workout</string>
+    <string name="title_string_6">Meditation</string>
+    <string name="title_string_7">Gaming</string>
+
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,46 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "com.MusicApp.loginRegister"
+        minSdk 21
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
+    implementation files('C:\\Users\\junej\\Documents\\NSCC\\MOBI3002_mobile_application\\MusicApp\\MusicApp\\MusicApp\\MusicAppV3\\android-sdk-0.7.2-appremote_v1.2.3-auth\\app-remote-lib\\spotify-app-remote-release-0.7.2.aar')
+    implementation fileTree(dir: 'C:\\Users\\junej\\Documents\\NSCC\\MOBI3002_mobile_application\\MusicApp\\MusicApp\\MusicApp\\MusicAppV3\\android-sdk-0.7.2-appremote_v1.2.3-auth', include: ['*.aar', '*.jar'], exclude: [])
+    implementation "com.google.code.gson:gson:2.8.5"
+    implementation 'androidx.drawerlayout:drawerlayout:1.1.1'
+    implementation 'androidx.navigation:navigation-fragment:2.5.3'
+    testImplementation 'junit:junit:'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation 'com.android.volley:volley:1.2.1'
+    // Nav bar
+    implementation 'com.google.android.material:material:1.3.0-alpha03'
+}
